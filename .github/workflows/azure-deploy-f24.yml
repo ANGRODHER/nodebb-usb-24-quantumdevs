@@ -48,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'nodebb-f24'
+          app-name: 'Nodebb-quantumdev'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8ABC85FE6A5F478E9B9108FA81E238DB }}
           package: .
