@@ -8,7 +8,6 @@ const SwaggerParser = require('@apidevtools/swagger-parser');
 const nconf = require('nconf');
 const jwt = require('jsonwebtoken');
 const util = require('util');
-
 const wait = util.promisify(setTimeout);
 
 const request = require('../src/request');
